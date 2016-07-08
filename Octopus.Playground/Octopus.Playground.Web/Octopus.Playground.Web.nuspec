@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Octopus.Playground.Web</id>
+    <title>Octopus Playground Web</title>
+    <version>$version$</version>
+    <authors>Authors</authors>
+    <description>Octopus Playground - Web application</description>
+  </metadata>
+</package>

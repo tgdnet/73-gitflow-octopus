@@ -1,0 +1,12 @@
+﻿@using System.Configuration
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Octopus Playground</h1>
+    <p>
+        @ConfigurationManager.AppSettings["Environment"]
+        v. @ConfigurationManager.AppSettings["Octopus.Release.Number"]
+    </p>
+</div>
